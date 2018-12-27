@@ -1,0 +1,6 @@
+framework module DJPhotoBrowser {
+  umbrella header "DJPhotoBrowser-umbrella.h"
+
+  export *
+  module * { export * }
+}

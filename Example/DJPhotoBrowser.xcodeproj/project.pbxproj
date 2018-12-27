@@ -58,15 +58,15 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		61EC693718E1CB1EB61688A2 /* Pods_DJPhotoBrowser_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DJPhotoBrowser_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		66A2CA100BDD9BF072512A55 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		68BD71E15E8B302EE21E23B4 /* DJPhotoBrowser.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DJPhotoBrowser.podspec; path = ../DJPhotoBrowser.podspec; sourceTree = "<group>"; };
+		66A2CA100BDD9BF072512A55 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		68BD71E15E8B302EE21E23B4 /* DJPhotoBrowser.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DJPhotoBrowser.podspec; path = ../DJPhotoBrowser.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9B533F274386A2D682ED7070 /* Pods_DJPhotoBrowser_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DJPhotoBrowser_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A69C599EB34EED12715E1CE7 /* Pods-DJPhotoBrowser_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DJPhotoBrowser_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-DJPhotoBrowser_Example/Pods-DJPhotoBrowser_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CBC79164D790497A5EECBA54 /* Pods-DJPhotoBrowser_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DJPhotoBrowser_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DJPhotoBrowser_Example/Pods-DJPhotoBrowser_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		FDF5ADF2C2618FC0A78A53F7 /* Pods-DJPhotoBrowser_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DJPhotoBrowser_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DJPhotoBrowser_Tests/Pods-DJPhotoBrowser_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		FE1B6103A1D1804839FCFBBD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		FE1B6103A1D1804839FCFBBD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -303,13 +303,19 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-DJPhotoBrowser_Example/Pods-DJPhotoBrowser_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DACircularProgress/DACircularProgress.framework",
 				"${BUILT_PRODUCTS_DIR}/DJPhotoBrowser/DJPhotoBrowser.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DACircularProgress.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DJPhotoBrowser.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

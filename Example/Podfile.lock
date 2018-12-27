@@ -1,0 +1,33 @@
+PODS:
+  - DACircularProgress (2.3.1)
+  - DJPhotoBrowser (0.1.0):
+    - DACircularProgress (~> 2.3.1)
+    - MBProgressHUD (~> 1.0)
+    - SDWebImage (~> 4.0.0)
+  - MBProgressHUD (1.1.0)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+
+DEPENDENCIES:
+  - DJPhotoBrowser (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - DACircularProgress
+    - MBProgressHUD
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  DJPhotoBrowser:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  DJPhotoBrowser: 312fbddfc35ea1ee259c23438d8e95075ebec503
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+
+PODFILE CHECKSUM: 9d4b654bd3953aa6c77a01c0179ef2bc1d0f85e5
+
+COCOAPODS: 1.5.3
