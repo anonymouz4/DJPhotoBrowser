@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'DJPhotoBrowser_Example' do
+  pod 'DJPhotoBrowser', :path => '../'
+
+  target 'DJPhotoBrowser_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
