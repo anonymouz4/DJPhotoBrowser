@@ -41,7 +41,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
   s.source_files = 'DJPhotoBrowser/Classes/**/*'
   s.resource_bundles = {
-      'MWPhotoBrowser' => ['DJPhotoBrowser/Assets/*.png']
+      'DJPhotoBrowser' => ['DJPhotoBrowser/Assets/*.png']
   }
   s.requires_arc = true
 
