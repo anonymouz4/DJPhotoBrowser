@@ -33,7 +33,7 @@ DJPhotoBrowser is available through [CocoaPods](https://cocoapods.org). To insta
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'DJPhotoBrowser'
+pod 'DJPhotoBrowser', :git => 'https://github.com/dingjianjaja/DJPhotoBrowser.git'
 ```
 
 
